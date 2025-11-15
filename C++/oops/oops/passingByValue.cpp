@@ -10,6 +10,7 @@ class TV{
     void getSystem(){
         if(isOn) cout<<"TV is ON";
         else cout<<"TV is OFF";
+        
         }
     };
 class Remote{
