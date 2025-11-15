@@ -1,0 +1,47 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int row, col;
+
+    // Input matrix dimensions
+    cout << "Enter number of rows: ";
+    cin >> row;
+    cout << "Enter number of columns: ";
+    cin >> col;
+
+    int a[10][10], b[10][10], sum[10][10];
+
+    // Input first matrix
+    cout << "Enter elements of first matrix:\n";
+    for (int i = 0; i < row; i++) {
+        for (int j = 0; j < col; j++) {
+            cin >> a[i][j];
+        }
+    }
+
+    // Input second matrix
+    cout << "Enter elements of second matrix:\n";
+    for (int i = 0; i < row; i++) {
+        for (int j = 0; j < col; j++) {
+            cin >> b[i][j];
+        }
+    }
+
+    // Adding matrices
+    for (int i = 0; i < row; i++) {
+        for (int j = 0; j < col; j++) {
+            sum[i][j] = a[i][j] + b[i][j];
+        }
+    }
+
+    // Display result
+    cout << "Sum of the two matrices:\n";
+    for (int i = 0; i < row; i++) {
+        for (int j = 0; j < col; j++) {
+            cout << sum[i][j] << " ";
+        }
+        cout << endl;
+    }
+
+    return 0;
+}

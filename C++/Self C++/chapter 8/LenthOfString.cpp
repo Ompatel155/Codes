@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
 int main(){
-    cout<<
+    string s = "ompatel";
+    cout<<s.length();
 }

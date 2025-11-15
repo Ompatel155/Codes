@@ -8,4 +8,4 @@ int main(){
     printf("age = %d\n",age);
     printf("pi = %f\n",pi);
     printf("grade = %c\n",grade);
-}
+} 
