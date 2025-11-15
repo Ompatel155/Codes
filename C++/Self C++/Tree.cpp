@@ -10,14 +10,15 @@ int main(){
         }
         cout<<"\n";
     }
-        for(int t=0;t<4;t++){
-            for(int j=0;j<3;j++){
-                cout<<" ";
-            }
-            for(int y=0;y<3;y++){
-                cout<<"* ";
-            }
-            cout<<"\n";
-        }
+for(int i=0;i<4;i++){
+    for(int j=0;j<3;j++){
+cout<<" ";
+
+    }
+    for(int t=0;t<3;t++){
+        cout<<"* ";
+    }
+    cout<<"\n";
+}
         
 }
