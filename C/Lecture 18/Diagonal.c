@@ -10,6 +10,9 @@ for(int i=0;i<3;i++){
        if(i==j){
         printf("%d ",arr[i][j]);
     }
+    if(i!=j){
+        printf("0 ");
+    }
         }printf("\n");
 }
 

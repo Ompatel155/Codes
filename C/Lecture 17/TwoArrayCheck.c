@@ -11,7 +11,7 @@ int main(){
             flag=0;
             break;
         }
-        if()
+        {
     }
 
 }

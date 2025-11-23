@@ -5,6 +5,6 @@ int main(){
     for(int i=4;i>=0;i--){
         int reverse;
         reverse=arr[i];
-        printf("%d",reverse);
+        printf("%d " ,reverse);
     }
 }
